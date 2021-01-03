@@ -3,7 +3,7 @@
   -- Do NOT remove the leading `#` character.
   -->
 
-# CS 3035 - Fall 2020
+# CS 2053 - Winter 2021
 
 <!--
   -- Default theme
@@ -17,8 +17,8 @@
   -- (Read: http://dynalon.github.io/mdwiki/#!quickstart.md#Adding_a_navigation)
   -->
 
-[Syllabus](pages/CS3035-fall-2020-syllabus.md)
-[Activities and Dates](pages/CS3035-fall-2020-course-activities.md)
+[Syllabus](pages/cs2053_syllabus_w2021.md)
+[Grading and Dates](pages/cs2053-grading-dates_w2021.md)
 [Software Setup](pages/CS3035-software-setup.md)
 [Git: Example Code & Assignments](pages/CS3035-assignments-with-git.md)
 
