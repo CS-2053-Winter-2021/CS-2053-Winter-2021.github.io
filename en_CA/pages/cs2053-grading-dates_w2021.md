@@ -3,35 +3,35 @@
 ## Marking Scheme
 
  - 10%: Conceptual/Textbook assignments (6)
- - &nbsp;5%: Peer check-ins
- - 15%: Lab assignments (7 +/-1)
+ - &nbsp;5%: Peer check-ins (2)
+ - 15%: Lab assignments (6)
  - 20%: Group Project (1)
  - 25%: Lab Exams (2 coding tests)
- - 10%: Midterm (1 Open book, during class time)
- - 20%: Final (1 Open book, during exam period)
+ - 10%: Midterm (1 open book test, during class time)
+ - 20%: Final (1 open book test, during exam period)
 
-## Dates of Tests, Assignments & Project (approximate)
+## Assignment Due Dates (subject to change)
 
 ***Note: All dates are tentative***
-### Assignment Due Dates (subject to change)
 
 | Date | Item |
 |------|-------|
-| 01/18| Lab Assignment 1 |
-| 01/25| Lab Assignment 2 |
+| 01/25| Lab Assignment 1 |
 | 01/29| Concept Assignment 1 |
-| 02/01| Lab Assignment 3 |
+| 02/01| Lab Assignment 2 |
 | 02/05| Concept Assignment 2 |
-| 02/08| Lab Assignment 4 |
-| 02/15| Lab Assignment 5 |
+| 02/08| Lab Assignment 3 |
+| 02/15| Lab Assignment 4 |
 | 02/19| Concept Assignment 3 |
-| 02/22| Lab Assignment 6 |
+| 02/22| Lab Assignment 5 |
 | 03/12| Concept Assignment 4 |
-| 03/15| Lab Assignment 7 |
+| 03/15| Lab Assignment 6 |
 | 03/22| Concept Assignment 5 |
 | 04/08| Concept Assignment 6 |
 
 ### Test Dates (Subject to change)
+
+***Note: All dates are tentative***
 
 | Date | Test |
 |------|-------|
@@ -41,6 +41,8 @@
 | TBD | Final Exam (during exam period) |
 
 ### Project Deliverable Dates (Subject to change)
+
+***Note: All dates are tentative***
 
 | Date | Test |
 |------|-------|

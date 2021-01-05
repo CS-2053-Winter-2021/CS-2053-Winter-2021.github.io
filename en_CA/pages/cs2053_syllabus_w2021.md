@@ -11,6 +11,10 @@ Introduces basic concepts and technologies for computer and video game developme
 ### Prerequisites
 - CS 2043 or CS 2263. 
 
+## Grading and Deliverbles
+
+See: [Grading and Dates](pages/cs2053-grading-dates_w2021.md)
+
 ## Class Time and Location
 
 ### Lectures
@@ -39,6 +43,11 @@ Game Programming Algorithms and Techniques, by Sanjay Madhav, Addison-Wesley, 20
 
 ### Recommended Book
 
+Game Programming Patterns, by Robert Nystrom. Genever Benning. 2014.
+<https://gameprogrammingpatterns.com/contents.html>
+
+- Great text for learning about best practices and using programming patterns in game development. If you want to be a game developer this is a must read.
+
 Introduction to Game Design, Prototyping, and Development: From Concept to Playable Game with Unity and C# (2nd Edition), by Jeremy Gibson Bond, Addison Wesley. 2017.
 
 - This is helpful if you would like a more structured introduction and examples for C#.
@@ -48,7 +57,6 @@ Introduction to Game Design, Prototyping, and Development: From Concept to Playa
 Introduction to Game Development (2nd Edition), by Steve Rabin (Editor), Course Technology. 2010.
 
 - [Free UNB Library e-book](https://unb-on-worldcat-org.proxy.hil.unb.ca/oclc/630472120)
-
 
 ### Prerequisites
 
