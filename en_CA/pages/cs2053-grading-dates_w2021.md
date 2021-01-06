@@ -29,7 +29,7 @@
 | 03/22| Concept Assignment 5 |
 | 04/08| Concept Assignment 6 |
 
-### Test Dates (Subject to change)
+## Test Dates (Subject to change)
 
 ***Note: All dates are tentative***
 
@@ -40,7 +40,7 @@
 | 03/25 | Lab Exam 2 (during lab time) |
 | TBD | Final Exam (during exam period) |
 
-### Project Deliverable Dates (Subject to change)
+## Project Deliverable Dates (Subject to change)
 
 ***Note: All dates are tentative***
 
