@@ -19,7 +19,7 @@
 
 [Syllabus](pages/cs2053_syllabus_w2021.md)
 [Grading and Dates](pages/cs2053-grading-dates_w2021.md)
-[Software Setup](pages/CS3035-software-setup.md)
+[Software Setup](pages/cs2053-setup-and-requirements.md)
 [Git: Example Code & Assignments](pages/CS3035-assignments-with-git.md)
 
 <!-- A more complex navigation example: ----------------------------------------
