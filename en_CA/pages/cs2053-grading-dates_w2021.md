@@ -6,7 +6,7 @@
  - &nbsp;5%: Peer check-ins (2)
  - 15%: Lab assignments (6)
  - 20%: Group Project (1)
- - 25%: Lab Exams (2 coding tests)
+ - 20%: Lab Exams (2 coding tests)
  - 10%: Midterm (1 open book test, during class time)
  - 20%: Final (1 open book test, during exam period)
 
@@ -37,7 +37,7 @@
 |------|-------|
 | 02/23 | Lab Exam 1 (during lab time) |
 | 02/24 | Midterm Test (during class time) |
-| 03/25 | Lab Exam 2 (during lab time) |
+| 03/23 | Lab Exam 2 (during lab time) |
 | TBD | Final Exam (during exam period) |
 
 ## Project Deliverable Dates (Subject to change)
