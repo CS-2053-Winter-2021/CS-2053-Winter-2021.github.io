@@ -7,7 +7,7 @@ The lab assignment will consist of two parts. In part 1, to be completed by **Ja
 ## Unity uses C# not Java
 Java and C# are so close we will not cover the differences in class formally, you are expected to pick up on this on your own. Students have had no problem making this transition in past years. However, here is a great reference on [C# for Java Developers](https://nerdparadise.com/programming/csharpforjavadevs) that covers the main differences, it is worth skimming this before you go any further.
 
-## Part 1 - to be Completed January 18
+## Part 1 - to be completed January 18
 The goal of first lab is to get every one acquainted with Unity and the lab environment. There will be nothing to submit for Part 1.
 
 First, you will need to initiate the project by following the GitHub invitation link, cloning it to your local computer and opening it in Unity. See [Instructions for Working with GitHub](https://cs-2053-winter-2021.github.io/en_CA/#!pages/CS2053-working-with-git.md).
@@ -18,9 +18,9 @@ Once you have opened up your project in Unity, you can start the [Roll-A-Ball Tu
 
 **Note: Watch but do not complete the steps in the very first video ("Setting up the Game"), since you do this by cloning the repo from GitHub and opening it in Unity. Also, you do not need to complete the steps in the final section ("Building the Game"). Instead you will submit your project on GitHub.**
 
-## Part 2 - To be complete January 25th
+## Part 2 - to be completed January 25th
 
-In this assignment you will Extend your Roll-A-Ball game so that it is more like a game. At the end of this assignment your game will make noises when collecting pickups, can be started, restarted and exited, and you will be able to "win" or "lose" the game!
+In Part 2, you will Extend your Roll-A-Ball game so that it is more like a game. At the end of this assignment your game will  can be started and restarted, and you will be able to "win" or "lose" the game!
 
 ## 1. Add a Count Down Timer
 
