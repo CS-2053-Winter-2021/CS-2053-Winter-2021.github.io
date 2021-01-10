@@ -20,7 +20,7 @@
 [Syllabus](pages/cs2053_syllabus_w2021.md)
 [Grading and Dates](pages/cs2053-grading-dates_w2021.md)
 [Software Setup](pages/cs2053-requirements-and-setup.md)
-[Using GitHub for Coursework](pages/CS3035-assignments-with-git.md)
+[Using Git and GitHub for Coursework](pages/CS2053-working-with-git.md)
 
 <!-- A more complex navigation example: ----------------------------------------
 

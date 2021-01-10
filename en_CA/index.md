@@ -9,7 +9,7 @@ This website is meant to act as the main source for all course related details.
 - [Syllabus](pages/cs2053_syllabus_w2021.md) - the official stuff.
 - [Grades and Dates](pages/cs2053-grading-dates_w2021.md) - overview of how technology will be used and important dates for the course, and how to get into contact.
 - [Setting Up Software for Development](pages/cs2053-requirements-and-setup.md) - guide for setting up your dev environment.
-- [Accessing Examples and Completing Assignments with Git](pages/CS3035-assignments-with-git.md) - details on the workflow for accessing examples and completing assignments with Git on Github.
+- [Working with Git and GitHub](pages/CS2053-working-with-git.md) - details on the workflow for accessing and completing work using Git and GitHub.
 
 ### Links to Other Course Resources
 
