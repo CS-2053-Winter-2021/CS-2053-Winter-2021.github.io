@@ -22,11 +22,11 @@ Once you have opened up your project in Unity, you can start the [Roll-A-Ball Tu
 
 In Part 2, you will Extend your Roll-A-Ball game so that it is more like a game. At the end of this assignment your game will  can be started and restarted, and you will be able to "win" or "lose" the game!
 
-## 1. Add a Count Down Timer
+### 1. Add a Count Down Timer
 
 You will add a timer to the game, so that if the timer counts down to zero you lose the game.
 
-### Requirements
+#### Requirements
 
 - The current time remaining will be displayed in the top right hand corner
 - The time should be initialized to 30 seconds when the game starts (this should make your game really easy to win)
@@ -34,7 +34,7 @@ You will add a timer to the game, so that if the timer counts down to zero you l
 - If zero is reached before all pickups are collected then the message "Time's Up! You Lose!" is displayed.
 - The timer should stop if the game is lost... or won.
 
-### Steps/Hints
+#### Steps/Hints
 
 - Similar to adding the score text, add a new UI TextMeshPro element for the time, that is displayed in the top right corner of the screen.
 - Add in variables for tracking the time to your player controller class.
@@ -47,9 +47,9 @@ You will add a timer to the game, so that if the timer counts down to zero you l
 - Your timer should stop counting down at zero or when the game is won.
 - The losing message (above) could be displayed using the winning text UI element that has already been created.
 
-## 2. Make Your Game More Game-Like
+### 2. Make Your Game More Game-Like
 
-### Requirements
+#### Requirements
 
 - Your game should not start immediately, instead add a welcome message that says "Welcome to -Your Name-'s Roll-A-Ball. Push 'S' to Start."
    + Use your actual name in the message above
@@ -77,6 +77,6 @@ SceneManager.LoadScene( SceneManager.GetActiveScene().name );
 using UnityEngine.SceneManagement;
 ```
 
-## Test and Submit
+### Test and Submit
 - Playtesting is an essential part of game development. Play your game... a lot. Does it work all the time? If not, see if you can fix any problems. Give your self enough time to ask questions on Teams, if you are stuck.
 - Once you are happy with your work. Save it in Unity and then Commit and Push it to GitHub by following the [instructions on the course website](https://cs-2053-winter-2021.github.io/en_CA/#!pages/CS2053-working-with-git.md).
