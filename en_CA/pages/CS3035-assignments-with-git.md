@@ -1,43 +1,17 @@
 # Using Git for Example Code and Assignments
 
-We will be using Git for accessing example code and submitting assignments on Github. Git is a very powerful tool, but the way we will use it for the course will be quite simple. In all cases, repositories will be created for you and you will "clone" the repositories to get started.
+We will be using Git and GitHub for completing assignments, doing your course project and doing the lab exams. Git is a very powerful tool, but the way we will use it for the course will be quite simple. In all cases, repositories will be created for you and you will "clone" the repositories to get started.
 
-You will need a [GitHub account](https://github.com/join) if you don't already have one to perform the steps below, and to submit assignments and challenges in the course.
+Before you get started with the details in this page you should complete the steps in [Software Setup and Requirements page](pages/cs2053-requirements-and-setup.md).
 
-We ask that you follow these below carefully, and only stray from them if you know what you are doing. There are lots of great git learning resources online like the free [Pro Git Book](https://git-scm.com/book/en/v2).
+## Create and Register a GitHub Account
+You will need a GitHub Account. Please see these instructions: [To create and register your GitHub account](https://cs-2053-winter-2021.github.io/en_CA/#!pages/cs2053-requirements-and-setup.md)
 
-## Example Code
+When using Git we ask that you follow these instructions below carefully, and only stray from them if you know what you are doing. 
 
-To access example code for the course there is a repository setup on the course's [Github organization page](https://CS-3035-Fall-2020.github.io). This repository will provide you with examples to get you started and that we have covered in class. The code in the repository will grow and change over time, so you will want to regularly "pull" changes and new code, so that you have the latest versions.
+There are lots of great git learning resources online like the free [Pro Git Book](https://git-scm.com/book/en/v2), if you would like to know more about the course.
 
-### Accessing Example Code in IntelliJ
 
-In IntelliJ do the following:
-
-- ```File -> New -> Project From Version Control -> Repository URL```
-- Enter ```https://github.com/CS-3035-Fall-2020/CS-3035-example-code.git``` for the URL
-- You can open a new window for the CS3035-example-code project or you can open in the same window (which closes your current project)
-
-#### Running Examples
-
-- Each example has a directory (or package) in the ```src``` directory
-- For each example you will generally find a Main class that initializes the app
-- You can run any app by ```right click it's Main class -> left click "Run Main.main()"```
-
-### Pull Examples Often
-
-Remember to pull the code from the examples repo often
-
-#### Watch for Changes
-
-To help you keep up to date, you can watch the examples repository... that way you can get frequent updates:
-
-- Visit <https://github.com/CS-3035-Fall-2020/CS-3035-example-code>
-- Click 'watch' in the top right hand corner
-
-#### Pull Changes
-
-To pull changes from the repository in IntelliJ you can do ```ctrl + t``` on Windows, ```click the blue arrow``` on the toolbar that points to the lower left, or ```VCS->Git->Pull```
 
 ## Assignments
 
