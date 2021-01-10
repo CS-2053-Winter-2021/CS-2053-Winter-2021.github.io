@@ -5,14 +5,13 @@ In this first lab assignment we will take two weeks. This will allow us to make 
 The lab assignment will consist of two parts. In part 1, to be completed by **January 18** you will complete an introductory tutorial. In part 2, you will extend the work you have done and improve your game. You will submit both part 1 and Part 2 by **January 25** on GitHub.
 
 ## Unity uses C# not Java
+
 Java and C# are so close we will not cover the differences in class formally, you are expected to pick up on this on your own. Students have had no problem making this transition in past years. However, here is a great reference on [C# for Java Developers](https://nerdparadise.com/programming/csharpforjavadevs) that covers the main differences, it is worth skimming this before you go any further.
 
 ## Part 1 - to be completed January 18
 The goal of first lab is to get every one acquainted with Unity and the lab environment. There will be nothing to submit for Part 1.
 
 First, you will need to initiate the project by following the GitHub invitation link, cloning it to your local computer and opening it in Unity. See [Instructions for Working with GitHub](https://cs-2053-winter-2021.github.io/en_CA/#!pages/CS2053-working-with-git.md).
-
-Invitation link: 
 
 Once you have opened up your project in Unity, you can start the [Roll-A-Ball Tutorial](https://learn.unity.com/project/roll-a-ball). 
 
