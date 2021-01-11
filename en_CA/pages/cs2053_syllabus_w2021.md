@@ -22,7 +22,7 @@ See: [Grading and Dates](pages/cs2053-grading-dates_w2021.md)
 - On Teams
 
 ### Labs
-- **Lab Time:** Tuesday - 4:30-6:00pm
+- **Lab Time:** Tuesday - 4:00-5:20pm
 - On Teams
 
 ## Instructor and Contact
