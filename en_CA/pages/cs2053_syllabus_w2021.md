@@ -11,7 +11,7 @@ Introduces basic concepts and technologies for computer and video game developme
 ### Prerequisites
 - CS 2043 or CS 2263. 
 
-## Grading and Deliverbles
+## Grading and Deliverables
 
 See: [Grading and Dates](pages/cs2053-grading-dates_w2021.md)
 

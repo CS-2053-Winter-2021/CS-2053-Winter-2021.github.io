@@ -45,7 +45,3 @@ Use the same account for everything you do in the class, so we can always track 
 We will use GitHub Desktop for get access to code and submitting your work. It can make using GitHub easier than the command line.
 
 - [Download and Install GitHub Desktop](https://desktop.github.com/)
-
-## Start Coding
-
-Once you are all set up you can get started with [Lab Assignment #1](), and test out all your new tools.
