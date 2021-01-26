@@ -34,7 +34,8 @@ Unity applications are made up of different components. If you need access to a 
  3. Use the GetComponent function (see below) to access the object
  4. See [here](http://web.archive.org/web/20190308220127/https://unitylore.com/articles/script-communication) for more info.
  
- ```csharp
+```csharp
+
 using UnityEngine;
  
 public class GameManager : MonoBehaviour
@@ -48,46 +49,49 @@ public class GameManager : MonoBehaviour
         print ("The Player's health is: " + playerInstance.health);
     }
 }
- ```
+```
 
 ## Specific Steps to Take Note of When Starting
  
- - Note: you would be able to drag and drop new images/audio/etc to your project and it would just work.
+- Note: you would be able to drag and drop new images/audio/etc. to your project and it would just work.
 
 ### 1. Set up your project
- - To keep things neat create some directories in your project folder
- - Rename your scene PacManTag (right-click on the SampleScene and click rename)
- - Create folders called "Prefabs", "Scripts", and "Sprites"
- - Create a subfolder in Sprites called "Animations"
- - Download the two sprite files (right click these links and Save As)
-   - [Sprite Sheet](Pacman-sprite.png)
-   - [Background](https://cs-2053-winter-2021.github.io/en_CA/pages/assignments/as2-files/back.png)
- - Drag these downloaded files into your Sprites directory
+
+- To keep things neat create some directories in your project folder
+- Rename your scene PacManTag (right-click on the SampleScene and click rename)
+- Create folders called "Prefabs", "Scripts", and "Sprites"
+- Create a subfolder in Sprites called "Animations"
+- Download the two sprite files (right click these links and Save As)
+ - [Sprite Sheet](Pacman-sprite.png)
+ - [Background](https://cs-2053-winter-2021.github.io/en_CA/pages/assignments/as2-files/back.png)
+- Drag these downloaded files into your Sprites directory
 
 ### 2. Create PacMan
+
 Let's start by creating a moving PacMan with the animation.
 
- - Add a new Sprite object for PacMan (click the '+' in the Hierarchy and choose )
- - Rename the sprite PacMan
- - Add a Script component to PacMan called PacManController
- - To add in the animation for your PacMan
-     + Click the Sprite sheet (Pacman-sprite) you have already downloaded and put in the Sprites directory
-     + In the Inspector window, find "Sprite Mode" and set it to "multiple"
-     + Next, click the "Sprite Editor" button in the Inspector
-     + Use the Slice button (you might need to resize your window to see the Slice button) and automatically slice the sprite sheet, click "Apply"
-     + You should now be able to find the individual sprites sliced up from your PacMan (you might have to click on the right arrow next to the sprite sheet in your "Project" window)
-     + Use Shift+Select (or Ctrl+Select) to choose each animation frame (left, right, up, down), there should be three frames for each of the four animations
-     + Drag and drop each of your animations on the PacMan Sprite object 
-         * This will popup and dialog to name a new animation, give each of your animations something like "PacManLeft", "PacManUp", etc.
-     + You can save each of the animations in an animations folder you created. 
- - to get your PacMan to show up in the Scene view, in the Hierarchy choose "PacMan" and in the Inspector open the Sprite Renderer, and click the dot next to Sprite. 
- - Choose a sprite for PacMan's default display, maybe Pacman-sprite_15
- - PacMan will likely be very small right now, so make him larger change PacMan's Transform Scale line to 5 for the x and y.
- - Now move PacMan so he starts towards the top left-hand corner of the game
+- Add a new Sprite object for PacMan (click the '+' in the Hierarchy and choose )
+- Rename the sprite PacMan
+- Add a Script component to PacMan called PacManController
+- To add in the animation for your PacMan
+   + Click the Sprite sheet (Pacman-sprite) you have already downloaded and put in the Sprites directory
+   + In the Inspector window, find "Sprite Mode" and set it to "multiple"
+   + Next, click the "Sprite Editor" button in the Inspector
+   + Use the Slice button (you might need to resize your window to see the Slice button) and automatically slice the sprite sheet, click "Apply"
+   + You should now be able to find the individual sprites sliced up from your PacMan (you might have to click on the right arrow next to the sprite sheet in your "Project" window)
+   + Use Shift+Select (or Ctrl+Select) to choose each animation frame (left, right, up, down), there should be three frames for each of the four animations
+   + Drag and drop each of your animations on the PacMan Sprite object 
+       * This will popup and dialog to name a new animation, give each of your animations something like "PacManLeft", "PacManUp", etc.
+   + You can save each of the animations in an animations folder you created. 
+- to get your PacMan to show up in the Scene view, in the Hierarchy choose "PacMan" and in the Inspector open the Sprite Renderer, and click the dot next to Sprite. 
+- Choose a sprite for PacMan's default display, maybe Pacman-sprite_15
+- PacMan will likely be very small right now, so make him larger change PacMan's Transform Scale line to 5 for the x and y.
+- Now move PacMan so he starts towards the top left-hand corner of the game
 
 **Initial PacMan Control**
- - Use the code below to control your PacMan (copy and paste the code below into your PacManController script), be sure to read it carefully, so that you understand it.
- - Test your game to make sure PacMan behaves correctly. You should be able to control him and he won't go outside the borders of the window.
+
+- Use the code below to control your PacMan (copy and paste the code below into your PacManController script), be sure to read it carefully, so that you understand it.
+- Test your game to make sure PacMan behaves correctly. You should be able to control him and he won't go outside the borders of the window.
 
 ```csharp
 
@@ -165,7 +169,9 @@ public class PacManController : MonoBehaviour
     }
 }
 ```
+
 **Add a Background**
+
 - Drag and drop the Background sprite (back) from your Sprites Directory on to the PacManTag scene in the hierarchy
 - rename the sprite Background in the Hiearchy
 - The background may now cover your PacMan, so in the Inspector for the Background, open the Sprite Renderer section
@@ -178,33 +184,36 @@ public class PacManController : MonoBehaviour
   
 
 ### 3. Create Your Ghost
+
  - Repeat the steps above for creating a Ghost.
  - Make your Ghost which ever color you like, and note that there are only 2 images for each ghost direction animation.
  - Use the same code above for your GhostController script, but switch out the code for moving the player with the arrows with the random movement code below
  - Test your program to see your ghost in action
+
 
 ```csharp
 
 //add this import statement for Random number generation
 using Random = UnityEngine.Random;
 
-        //1% of the time, switch the direction: 
-        int change = Random.Range(0,100);
-        if (change == 0)
-        {
-            velocity = new Vector3(-velocity.x, -velocity.y, 0);
-        }
-        //1% of the time, switch from horizontal to vertical, or vice-versa: 
-        else if (change == 1)
-        {
-            if (velocity.x != 0f)
-                velocity = new Vector3(0f, velocity.x, 0f);
-            else
-                velocity = new Vector3(velocity.y, 0f, 0f);
-        } 
+//1% of the time, switch the direction: 
+int change = Random.Range(0,100);
+if (change == 0)
+{
+    velocity = new Vector3(-velocity.x, -velocity.y, 0);
+}
+//1% of the time, switch from horizontal to vertical, or vice-versa: 
+else if (change == 1)
+{
+    if (velocity.x != 0f)
+        velocity = new Vector3(0f, velocity.x, 0f);
+    else
+        velocity = new Vector3(velocity.y, 0f, 0f);
+} 
 ```
 
 ### 4. Create a GameController Script and Multiple Ghosts
+
 To control the state of your game we will create a third script (you should already have scripts for PacMan and for the Ghost).
 
  - First create an "Empty Game Object" and name it GameController
@@ -217,18 +226,21 @@ To control the state of your game we will create a third script (you should alre
  -  In your GameController script try instantiating multiple Ghosts in your Start function using the code below
 
 ```csharp
-    //note red ghost was the name of my public variable that 
-    //contains the Ghost prefab
-    Instantiate(redGhost, new Vector3 (0f, 0f, 0f), Quaternion.identity);
+
+//note red ghost was the name of my public variable that 
+//contains the Ghost prefab
+Instantiate(redGhost, new Vector3 (0f, 0f, 0f), Quaternion.identity);
+
 ```
 
 ### 5. Detecting Collisions and notifying the GameContorller
- - to detect collisions add Box Collider 2D to both your PacMan and Ghost
-     + Select the objects, in the Inspector -> "Add Component" -> "Physics 2D" -> "Box Collider 2D"
- - Make sure that both colliders have the "Is Trigger" box checked (we will discuss this option when we do more with collisions)
- - Your Ghosts and PacMan can now detect collisions, but you need to add a new method to your objects... however, only one of these objects will need to detect the collision so add the method below to your PacManController script
- - Afterwards test your code to make sure everything works and when you collide with a ghost that your PacMan disappears
- - If you find that your OnTrigger code is not being called automatically, try adding a RigidBody2D component to your Pacman and your Ghost.
+
+- to detect collisions add Box Collider 2D to both your PacMan and Ghost
+  + Select the objects, in the Inspector -> "Add Component" -> "Physics 2D" -> "Box Collider 2D"
+- Make sure that both colliders have the "Is Trigger" box checked (we will discuss this option when we do more with collisions)
+- Your Ghosts and PacMan can now detect collisions, but you need to add a new method to your objects... however, only one of these objects will need to detect the collision so add the method below to your PacManController script
+- Afterwards test your code to make sure everything works and when you collide with a ghost that your PacMan disappears
+- If you find that your OnTrigger code is not being called automatically, try adding a RigidBody2D component to your Pacman and your Ghost.
 
 ```csharp
 
@@ -244,21 +256,24 @@ void OnTriggerEnter2D(Collider2D other) {
 ```
 
 ### 6. Finish it all off
- - Most of the remaining code will be added to the GameController script
- - Add in TextMeshPro elements ([see Lab Assignment #1](https://cs-2053-winter-2021.github.io/en_CA/#!pages/assignments/cs2053-w2021-lab-assignment-1.md)) for the time and to display a message when the game ends
- - Add in updates to the time in your GameController
- - Add a public GameOver method to your GameController, this method should set the state of your game to be completed (remember to uncomment the GameOver function call in your PacManController script)
- - Add in the code to generate a new ghost every 5 seconds
- - Use this simple line to check if the R key is being pressed to restart: 
+- Most of the remaining code will be added to the GameController script
+- Add in TextMeshPro elements ([see Lab Assignment #1](https://cs-2053-winter-2021.github.io/en_CA/#!pages/assignments/cs2053-w2021-lab-assignment-1.md)) for the time and to display a message when the game ends
+- Add in updates to the time in your GameController
+- Add a public GameOver method to your GameController, this method should set the state of your game to be completed (remember to uncomment the GameOver function call in your PacManController script)
+- Add in the code to generate a new ghost every 5 seconds
+- Use this simple line to check if the R key is being pressed to restart: 
+
 ```csharp
+
    //in GameController
    if (Input.GetKeyDown(KeyCode.R)) {
        //restart
    }
 
 ```
- - Make sure that you meet all other game requirements!
- - Test and submit!
+
+- Make sure that you meet all other game requirements!
+- Test and submit!
 
 ## Test and Submit
 
