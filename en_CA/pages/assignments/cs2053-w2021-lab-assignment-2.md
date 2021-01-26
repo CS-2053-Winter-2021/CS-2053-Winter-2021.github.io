@@ -62,7 +62,7 @@ public class GameManager : MonoBehaviour
 - Create folders called "Prefabs", "Scripts", and "Sprites"
 - Create a subfolder in Sprites called "Animations"
 - Download the two sprite files (right click these links and Save As)
- - [Sprite Sheet](Pacman-sprite.png)
+ - [Sprite Sheet](https://cs-2053-winter-2021.github.io/en_CA/pages/assignments/as2-files/Pacman-sprite.png)
  - [Background](https://cs-2053-winter-2021.github.io/en_CA/pages/assignments/as2-files/back.png)
 - Drag these downloaded files into your Sprites directory
 
