@@ -19,7 +19,7 @@
 | 01/25| Lab Assignment 1 |
 | 01/29| Concept Assignment 1 |
 | 02/01| Lab Assignment 2 |
-| 02/05| Concept Assignment 2 |
+| 02/10| Concept Assignment 2 |
 | 02/08| Lab Assignment 3 |
 | 02/15| Lab Assignment 4 |
 | 02/19| Concept Assignment 3 |
