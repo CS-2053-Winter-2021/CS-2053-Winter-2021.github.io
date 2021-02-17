@@ -22,7 +22,7 @@
 | 02/10| Concept Assignment 2 |
 | 02/08| Lab Assignment 3 |
 | 02/15| Lab Assignment 4 |
-| 02/19| Concept Assignment 3 |
+| 02/22| Concept Assignment 3 |
 | 02/22| Lab Assignment 5 |
 | 03/12| Concept Assignment 4 |
 | 03/15| Lab Assignment 6 |
@@ -38,7 +38,7 @@
 | 02/23 | Lab Exam 1 (during lab time) |
 | 02/24 | Midterm Test (during class time) |
 | 03/23 | Lab Exam 2 (during lab time) |
-| TBD | Final Exam (during exam period) |
+| 04/26 @7pm | Final Exam (during exam period) |
 
 ## Project Deliverable Dates (Subject to change)
 
