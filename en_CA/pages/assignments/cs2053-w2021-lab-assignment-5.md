@@ -109,7 +109,7 @@ public class AircraftController : MonoBehaviour {
 
  - g) Finish it all off
      + Most of the remaining code will be added to your GameController script
-     + Add in Text elements (see Lab Assignment #1) for the obstacles remaining display and to display a message when the game ends.
+     + Add in Text elements (see Lab Assignment #1) for the time remaining display and to display a message when the game ends.
      + Remember to add in an 'r' to restart the game, which can be pressed at any time.
      + Make sure that you meet all other game requirements!
      + Test and submit!
