@@ -15,7 +15,7 @@ You need to complete and submit your code before the 1.5 hour deadline. To submi
 You must be in the Teams call during the lab exam, which is mandatory. If you are not in attendance then your lab exam will not be graded.
 
 ## Requirements
-Note the requirements below have been organized according to a suggested logical flow for implementation. You may want to review them all before you start, however. NOTE: It would be good practice to make sure that all of the objects you create have a RigidBody component added to them.
+Note the requirements below have been organized according to a suggested logical flow for implementation. You may want to review them all before you start, however. 
 
 - DEMO OF THE COMPLETED GAME: https://www.youtube.com/watch?v=lCgSLSlXJUQ
 
@@ -23,7 +23,7 @@ Note the requirements below have been organized according to a suggested logical
  2. *6 points* - Create a rectangular cube to represent the player, placed on the board. You control the player by using the arrow keys (which calculates a new position for the rectangular cube). The arrow keys will stop responding when the player gets close to the edge of the board. 
  3. *3 points* - The game contains a ball, placed somewhere on the board (it can start at the same place). The ball will move when bumped (remember to add a RigidBody to all objects in the game). The game also contains a goal (a large rectangular cube), placed just off the edge on one side of the board. The ball can remain white, but the goal should be colored red.
  4. *3 points* - The game can be restarted at any time by pressing 'r' on the keyboard. Although there does NOT need to be a message that states this.
- 4. *7 points* - When the ball falls off (or hits the edge of) the game board, it immediately disappears and "You Lose!" is displayed on the screen. The game should prevent the player from moving at this point.
+ 5. *7 points* - When the ball falls off (or hits the edge of) the game board, it immediately disappears and "You Lose!" is displayed on the screen. The game should prevent the player from moving at this point.
  6. *7 points* - When the ball is pushed into the goal it immediately disappears and "You Win!" is displayed on the screen.
  7. *6 points* - The computer players (cylinders) move in random directions around the game board (either forward, backwards, left or right), but they stay on the game board. Their movement does not have to be perfect, but should be reasonable and allow the game to be played (i.e., minor glitches are OK and might arise from changing the position of the object and it colliding with other objects)
   
