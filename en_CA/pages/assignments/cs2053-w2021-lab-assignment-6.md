@@ -7,6 +7,7 @@ This is a longer tutorial that has been designed to walk you through the steps. 
 ## Due: 11:30pm, Wed., Mar. 17, 2021
 
 ## 1. Setup the Basic Game
+
  1. In the game scene, similar to Lab 1 tutorial, use 3D cubes to build a closed polygon, preferably more complex than rectangle or square, such as a hexagon. 
  2. Lay the cubes (that have been stretched to make walls) on X-Z plane with y=0. Notice that for each cube, in the Inspector, a Box Collider is created (if not add one).
  3. And put ground (using a 3D plane) under the cubes. 
@@ -57,6 +58,7 @@ This is a longer tutorial that has been designed to walk you through the steps. 
 - c) In OnCollisionEnter(), add ```myAudio.Play();```
 - Run the program and hear bouncing sound on each collision.
 - e) In OnCollisionEnter(), add the following. Notice the checks that are performed to make sure the object is initialized:
+
 ```cs
     if (myAudio != null && !myAudio.isPlaying &&
         myAudio.clip != null && myAudio.clip.loadState == AudioDataLoadState.Loaded
@@ -65,10 +67,12 @@ This is a longer tutorial that has been designed to walk you through the steps. 
         myAudio.Play();
     }
 ```
+
     - Run the program and hear bouncing sound on each collision of the ball.
 
- 12. Duplicate the Ball object to create several more ball object and scatter them inside the polygon on the ground. Run the program and observe collisions between balls which are detected by two colliding balls’ Sphere Colliders.
- 13. Note that if you want give some constant force during ball’s movement in the same move direction after initial force, you can add the following code to FixedUpdate() of BallController, which may result in acceleration of the movement:
+ 1.  Duplicate the Ball object to create several more ball object and scatter them inside the polygon on the ground. Run the program and observe collisions between balls which are detected by two colliding balls’ Sphere Colliders.
+ 2.  Note that if you want give some constant force during ball’s movement in the same move direction after initial force, you can add the following code to FixedUpdate() of BallController, which may result in acceleration of the movement:
+
  ```cs 
     Vector3 myVelocity = rb.velocity;
     myVelocity.Normalize();
@@ -76,11 +80,11 @@ This is a longer tutorial that has been designed to walk you through the steps. 
     rb.AddForce(forcePower * myVelocity);
  ```
 
- 14. Create a material for your ground (Assets->Create->Material), change its color, and drag it from your assets folder to the ground plane in your scene view.
- 15. You might want to repeat this for the walls and balls, if you like.
- 15. Create another Sphere object, and call it "Player".
- 16. Provide a tag for your "Player" called "Player", and and create a distinct color using a material for the player.
- 17. Create a "PlayerController" script for the player and provide it with the following code. You will need to update the code to adopt the sound playing strategy that you used for the other balls, as described above. 
+ 1.  Create a material for your ground (Assets->Create->Material), change its color, and drag it from your assets folder to the ground plane in your scene view.
+ 2.  You might want to repeat this for the walls and balls, if you like.
+ 3.  Create another Sphere object, and call it "Player".
+ 4.  Provide a tag for your "Player" called "Player", and and create a distinct color using a material for the player.
+ 5.  Create a "PlayerController" script for the player and provide it with the following code. You will need to update the code to adopt the sound playing strategy that you used for the other balls, as described above. 
  ```cs
     using System.Collections;
     using System.Collections.Generic;
@@ -120,6 +124,7 @@ This is a longer tutorial that has been designed to walk you through the steps. 
 ## 3. Add Cameras to your Game Scene
 
 ### 3.1 Static Camera and Camera Controller
+
  1. Rename the default “Main Camera” to “Static Camera”. Create 5 more cameras with names “Follow Camera”, “Spring Camera”, “Orbit Camera”, “First Person Camera”, and “Spline Camera”.
  2. Change the following properties of the static camera: 
     - Make its projection orthographic.
@@ -192,7 +197,9 @@ public class FollowCameraController : MonoBehaviour {
  9. Run the program. Move the player object and observe how the follow camera following the player object with fixed distance.
 
 ### 3.3 Update the Spring Camera
+
  10. For “Spring Camera” object, create “SprintCameraController” script with the following code:
+
 ```cs
 using UnityEngine;
 using System.Collections;
@@ -235,6 +242,7 @@ public class SpringCameraController : MonoBehaviour {
 
 ### 3.4 Update the Orbit Camera
 12. For “Orbit Camera” object, create “OrbitCameraController” script with the following code:
+
 ```cs
 using UnityEngine;
 using System.Collections;
