@@ -201,6 +201,7 @@ public class FollowCameraController : MonoBehaviour {
  10. For “Spring Camera” object, create “SprintCameraController” script with the following code:
 
 ```cs
+
 using UnityEngine;
 using System.Collections;
 using System;
@@ -234,11 +235,12 @@ public class SpringCameraController : MonoBehaviour {
         transform.position = actualPosition;
     }
 }
+
 ```
 
- 11. Return to the Inspector of the Follow Camera, click on the gear icon -> "Copy Component". Then return to the transform of the Spring Camera. Click the gear icon -> "Paste Component Values". Your Follow Camera and Spring Camera should now have the same transform.
- 12. Drag player object to the “Target” entry of “Spring Camera”, set “Speed” entry of the player object to some positive value, and enter “spring” in the “Choice” entry of Camera Controller.
- 13. Run the program. Move the payer object and observe how the spring follow camera following the player object with variable distances.
+11. Return to the Inspector of the Follow Camera, click on the gear icon -> "Copy Component". Then return to the transform of the Spring Camera. Click the gear icon -> "Paste Component Values". Your Follow Camera and Spring Camera should now have the same transform.
+12. Drag player object to the “Target” entry of “Spring Camera”, set “Speed” entry of the player object to some positive value, and enter “spring” in the “Choice” entry of Camera Controller.
+13. Run the program. Move the payer object and observe how the spring follow camera following the player object with variable distances.
 
 ### 3.4 Update the Orbit Camera
 12. For “Orbit Camera” object, create “OrbitCameraController” script with the following code:
@@ -270,12 +272,14 @@ public class OrbitCameraController : MonoBehaviour {
 15. Run the program. Observe how the orbit camera orbits around the player object with fixed distance.
 
 ### 3.5 Update the First-Person Camera
+
 16. For “First Person Camera” object, create “FirstPersonCameraController” script and copy the same code from “FollowCameraController”.
 17. Set the First Person Camera’s transform as position(0,1,0) and rotation as appropriate (you probably don't need to do anything).
 18. Drag player object to the “Target” entry of “First Person Camera”, set “Speed” entry of the player object to some positive value, and enter “fp” in the “Choice” entry of Camera Controller.
 19. Run the program. Move the player object and observe how the first person camera has the same view as the player object.
 
 ### 3.6 Update Spline Camera 
+
 20.  For ‘Spline Camera” object, create “SplineCameraController” script with the following code:
 
 ```cs
@@ -349,6 +353,7 @@ class CRSpline
 22. Run the program. Observe Spline Camera’s movement along the spline path. You can add more control points and modify existing control points’ position in CRSpline class to observe different camera paths.
 
 ## 4. Create a Menu Screen/Scene
+
 1. Create a new Scene, and name your scene "MainMenu"
 2. Add two buttons to your scene ("Create->UI->Button"). Position your buttons, so that they are centered in the window (remember to anchor them).
 3. Change the name of the first button to "StartButton" and set its text to "Start Game".
