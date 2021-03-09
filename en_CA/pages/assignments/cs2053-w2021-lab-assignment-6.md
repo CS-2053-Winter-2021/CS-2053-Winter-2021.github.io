@@ -16,7 +16,8 @@ This is a longer tutorial that has been designed to walk you through the steps. 
  6. Drag “BounceMaterial” to “Material” entry of the Sphere Collider for the "Ball".
  7. In the Inspector of Ball, add a “Rigidbody” component by selecting “Add Component”, “Physics”, then “Rigidbody”. Uncheck “Is Kinematic” property in “RigidBody” component. Note the “Mass” property.
  8. Create a new script with name “BallController” for the Ball object. Add the following code to “BallController”:
-    ```cs
+
+```cs
     using System.Collections;
     using System.Collections.Generic;
     using UnityEngine;
@@ -44,7 +45,7 @@ This is a longer tutorial that has been designed to walk you through the steps. 
         {
         }
     }
-    ```
+```
 
  9. Run the program. Observe that the ball object’s movement by the initial force and bounces from the collided cubes. Note that the collision detections between the ball object and a cube are detected by the cube’s Box Collider and the ball’s Sphere Collider.
  10. Change the friction and bounciness property values in “BounceMaterial” to see how the ball’s movement changes. Also change the “Mass” property of the ball’s “Rigidbody” to see how the ball’s movement changes. The more mass the more force needed.
@@ -136,7 +137,7 @@ public class CameraController : MonoBehaviour {
 
     public string choice = "static";
 
-        // Use this for initialization
+    // Use this for initialization
     void Start () {
         staticCamera.enabled = false;
         followCamera.enabled = false;
@@ -387,12 +388,13 @@ public class GameController : MonoBehaviour {
         Application.Quit();
     }
 }
- ```
- 7. Tie together the behaviour for the Start and Quit buttons
-    + In the inspector of a button, under "Script", "On Click" drag the GameController game object to the Object location ->it should say "None (Object)"
-    + Click on the drop down to select a function (it should say "No function"). Choose GameController -> LoadGame() or QuitGame()
- 8. Look at the code above carefully. Note that the enumeration can be referenced in any scene or object as a type. 
- 9. Note the ```static GameState gameState``` variable. Because it is static it can be referenced from any state. So, this can be used to track and update the state of your game from scripts anywhere in your game.
+```
+
+7. Tie together the behaviour for the Start and Quit buttons
+ + In the inspector of a button, under "Script", "On Click" drag the GameController game object to the Object location ->it should say "None (Object)"
+ + Click on the drop down to select a function (it should say "No function"). Choose GameController -> LoadGame() or QuitGame()
+8. Look at the code above carefully. Note that the enumeration can be referenced in any scene or object as a type. 
+9. Note the ```static GameState gameState``` variable. Because it is static it can be referenced from any state. So, this can be used to track and update the state of your game from scripts anywhere in your game.
  
 ## 5. Complete the Game (Requirements)
 Once you have completed all of the steps above you are ready to complete the game. Your game must have all of the functionality outlined above, and additionally:
