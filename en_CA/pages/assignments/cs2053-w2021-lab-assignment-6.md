@@ -348,7 +348,7 @@ class CRSpline
 5. Create a Text UI component and name it "Title" and add it to your scene. Make the text large and visible and give your game a name, e.g., "Ball Escape".
 6. Create an empty game object called "GameController" and add a script to it called GameController, paste in the following code: 
 
- ```cs
+```cs
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -388,11 +388,14 @@ public class GameController : MonoBehaviour {
         Application.Quit();
     }
 }
+
 ```
 
 7. Tie together the behaviour for the Start and Quit buttons
+
  + In the inspector of a button, under "Script", "On Click" drag the GameController game object to the Object location ->it should say "None (Object)"
  + Click on the drop down to select a function (it should say "No function"). Choose GameController -> LoadGame() or QuitGame()
+  
 8. Look at the code above carefully. Note that the enumeration can be referenced in any scene or object as a type. 
 9. Note the ```static GameState gameState``` variable. Because it is static it can be referenced from any state. So, this can be used to track and update the state of your game from scripts anywhere in your game.
  
