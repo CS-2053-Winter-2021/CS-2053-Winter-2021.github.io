@@ -198,7 +198,7 @@ public class FollowCameraController : MonoBehaviour {
 
 ### 3.3 Update the Spring Camera
 
- 10. For “Spring Camera” object, create “SprintCameraController” script with the following code:
+ 10. For “Spring Camera” object, create “SpringCameraController” script with the following code:
 
 ```cs
 
