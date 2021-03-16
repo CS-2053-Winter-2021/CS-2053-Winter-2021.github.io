@@ -4,6 +4,8 @@ In this lab assignment, you will gain experience with physics, cameras, sounds a
 
 This is a longer tutorial that has been designed to walk you through the steps. This assignment will be made easier if you follow them closely, step by step.
 
+The completed project can be seen here: <https://youtu.be/a2bZTT28XI8>
+
 ## Due: 11:30pm, Wed., Mar. 17, 2021
 
 ## 1. Setup the Basic Game
